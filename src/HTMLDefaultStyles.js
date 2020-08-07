@@ -51,8 +51,11 @@ export function generateDefaultTextStyles (baseFontSize = BASE_FONT_SIZE) {
             fontSize: baseFontSize * 0.8
         },
         p: {
-            marginTop: baseFontSize,
-            marginBottom: baseFontSize
+            marginTop: 1,
+            marginBottom: 1
+            // 09-06-2020 change line spacing
+            // marginTop: baseFontSize,
+            // marginBottom: baseFontSize
         }
     };
 }
