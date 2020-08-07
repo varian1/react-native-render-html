@@ -53,6 +53,7 @@
     "react-native": "^0.63.0",
     "react-native-testing-library": "^2.1.0",
     "react-native-webview": "^10.3.2",
+    "react-native-image-pan-zoom": "^2.1.11",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
