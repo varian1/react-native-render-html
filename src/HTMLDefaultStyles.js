@@ -34,6 +34,7 @@ export function generateDefaultTextStyles (baseFontSize = BASE_FONT_SIZE) {
         big: { fontSize: baseFontSize * 1.2 },
         small: { fontSize: baseFontSize * 0.8 },
         a: {
+            fontSize: baseFontSize,
             textDecorationLine: 'underline',
             color: '#245dc1'
         },
@@ -44,14 +45,10 @@ export function generateDefaultTextStyles (baseFontSize = BASE_FONT_SIZE) {
         h5: _generateHeadingStyle(baseFontSize, 0.83, 1.67),
         h6: _generateHeadingStyle(baseFontSize, 0.67, 2.33),
         sub: {
-            textAlignVertical: 'top',
-            fontSize: baseFontSize * 0.8,
-            marginTop: baseFontSize / 2
+            fontSize: baseFontSize * 0.8
         },
         sup: {
-            textAlignVertical: 'top',
-            fontSize: baseFontSize * 0.8,
-            marginBottom: baseFontSize / 2
+            fontSize: baseFontSize * 0.8
         },
         p: {
             marginTop: 1,
