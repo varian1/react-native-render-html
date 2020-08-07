@@ -65,6 +65,9 @@
       "clover",
       "text"
     ],
-    "coveragePathIgnorePatterns": ["/node_modules/", "/src/__tests__"]
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/__tests__"
+    ]
   }
 }
